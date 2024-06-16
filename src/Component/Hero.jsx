@@ -19,7 +19,7 @@ function Hero() {
          
      
 
-     <img src="/Image/hero-image.png" alt="" />
+     <img src="./Image/hero-image.png" alt="" />
     </main>
   )
 }
