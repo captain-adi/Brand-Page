@@ -12,8 +12,8 @@ function Hero() {
             </div>
             <p className={style.para}>Also Available On</p>
             <div className={style.siteImage}>
-                <img src="/Image/flipkart.png" alt="" />
-                <img src="/Image/amazon.png" alt="" />
+                <img src="./Image/flipkart.png" alt="" />
+                <img src="./Image/amazon.png" alt="" />
             </div>
          </div>
          

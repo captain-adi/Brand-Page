@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div>
    <nav className={style.navbar}>
-     <div><img src="/Image/brand_logo.png" alt="" /></div>
+     <div><img src="./Image/brand_logo.png" alt="" /></div>
   
        <ul>
         <li href="#">MENU</li>
