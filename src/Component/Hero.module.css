@@ -1,0 +1,54 @@
+.container{
+    all: unset;
+    display: flex;
+    max-width: 80%;
+    margin:  0 auto;
+    margin-top: 55px;
+    gap: 44px;
+}
+.frame1{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.headline{
+    all: unset;
+    font-weight: 800;
+    font-size: 109px;
+    line-height: 100px;
+    width: 650px;
+}
+.headline + p{
+   max-width:  380px ;
+   line-height: 24px;
+   font-size: 16px;
+}
+button{
+    all: unset;
+    cursor: pointer;
+    padding: 6px 16px;
+  
+}
+button:nth-child(1){
+    margin-right: 20px;
+    background-color: #D01C28;
+    color: white;
+}
+button:nth-child(2){
+    border: 1px solid black;
+}
+.para{
+    font-weight: 400;
+    font-size:12px ;
+    color: GRAY;
+}
+.siteImage{
+    display: flex;
+    align-items: center;
+}
+.siteImage img{
+    cursor: pointer;
+    height: 32px;
+    width:  32px;
+    margin-right: 10px;
+}
